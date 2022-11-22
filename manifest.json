@@ -84,7 +84,7 @@
         "node_modules/node-fetch/LICENSE.md": "84eaa985e1ef71b8c630e8aba73404c219ff425c6fdb45c62e998b58d4fbdc8e",
         "node_modules/node-fetch/index.js": "8e2792c0f014d82415a94f83e7dc5b44f3be54d24f66aef2d4d5c72be1d4c378",
         "node_modules/tera-client-interface/GPKManager.js": "ffd7d2f30fffe6427663ff308a8de4d295fbefe6b69c5ab682acf4f1e7ba4a41",
-        "node_modules/tera-client-interface/index.js": "ab6a238ac128a87a378280673446e1ebd2a5cce5b6ccfc46895885bc21b904e8",
+        "node_modules/tera-client-interface/index.js": "DA563117CEB09A4690541106F62B6BC9F1B951F6007DEF34D63F5A0A632A5578",
         "node_modules/tera-client-interface/scanner/index.js": "bfa4f7902e11a9adb852f940c24295abfe42295dcbdd6d6ddf5b149b86e985c0",
         "node_modules/tera-client-interface/scanner/scanner_80.node": "1b2b0c8d972a2ad5bd2e225713b404b1e1692063160f776a82b573938a04e91f",
         "node_modules/tera-client-interface/scanner/scanner_83.node": "f75de27ebf79d60b24f92ac12b5fd1975f08436aac7f3fbd8905b64179ac4ba1",
