@@ -4,23 +4,25 @@ const fs = require('fs');
 
 function PublisherFromLanguage(language) {
     switch (language.toUpperCase()) {
+        case 'CHN':
         case 'EUR':
         case 'FRA':
         case 'GER':
+        case 'INT':
+        case 'JPN':
         case 'RUS':
+        case 'SE':
+        case 'THA':
+        case 'TW':
         case 'USA':
             return 'VKY';
-            return 'GF';
-        case 'KOR':
-            return 'BH';
-        case 'JPN':
-            return 'PM';
-        case 'TW':
-            return 'M5';
         default:
             throw new Error(`Invalid language "${language}"!`);
     }
 }
+
+
+//CHN, EUR, FRA, GER, INT, JPN, RUS, SE, THA, TW and USA.
 
 function TagFromLanguage(language) {
     return ' (Toolbox)';
