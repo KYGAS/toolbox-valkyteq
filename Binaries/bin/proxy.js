@@ -5,10 +5,11 @@ const fs = require('fs');
 function PublisherFromLanguage(language) {
     switch (language.toUpperCase()) {
         case 'EUR':
-            return 'VKY';
         case 'FRA':
         case 'GER':
         case 'RUS':
+        case 'USA':
+            return 'VKY';
             return 'GF';
         case 'KOR':
             return 'BH';
