@@ -15,8 +15,8 @@ function checkRuntimeCompatibility() {
 async function initGlobalSettings(DevMode = false) {
     global.TeraProxy = {
         DevMode: !!DevMode,
-        DiscordUrl: 'https://discord.gg/x9ERbVayKy',
-        SupportUrl: 'https://discord.gg/x9ERbVayKy',
+        DiscordUrl: 'https://discord.gg/tera',
+        SupportUrl: 'https://discord.gg/tera',
         GUIMode: !!process.versions.electron,
         IsAdmin: await isAdmin(),
         get UILanguage() {
